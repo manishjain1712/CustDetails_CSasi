@@ -1,0 +1,19 @@
+{
+  "name": "custsearch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "setup": "node setup.js",
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "circular-json": "^0.5.9",
+    "express": "^4.16.4",
+    "mongodb": "^3.1.10",
+    "cors": "^2.8.5"
+  }
+}
